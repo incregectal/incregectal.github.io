@@ -1,21 +1,21 @@
-.container {
+/* .container {
   padding: 0 2rem;
-}
+} */
 
 .main {
-  min-height: 100vh;
+  min-height: 95vh;
   /* padding: 4rem 0; */
-  flex: 1;
+  flex: 3;
   display: flex;
   flex-direction: row;
   align-items: left;
 }
 
 .displaybar {
-  min-height: 100vh;
-  max-width: 25vw;
+  min-height: 90vh;
+  max-width: 33vw;
   padding: 4rem 0;
-  flex: 1;
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -55,6 +55,48 @@
 .clicker:active {
   color: #ff0000;
   border-color: #ff0000;
+}
+
+.generators {
+  flex-grow: 1;
+  /* width: 33vw; */
+  /* max-width: 34vw; */
+  /* flex: 1; */
+  justify-content: flex-start;
+  border-right: 1px solid #eaeaea4b;
+}
+
+.generatorbar {
+  /* width:fit-content */
+
+  border-top: 1px solid #eaeaea4b;
+  border-bottom: 1px solid #eaeaea4b;
+  margin: 0;
+  padding: 2%;
+  /* max-height: vw; */
+  display: flex;
+  /* align-content: center; */
+  justify-content: center;
+}
+
+.upgrades {
+  flex-grow: 1;
+  /* width: 33vw; */
+  /* max-width: 34vw; */
+  /* flex: 1; */
+  justify-content: flex-start;
+  /* border-right: 1px solid #eaeaea4b; */
+}
+
+.upgradebar {
+  border-top: 1px solid #eaeaea4b;
+  border-bottom: 1px solid #eaeaea4b;
+  margin: 0;
+  padding: 2%;
+  /* max-height: vw; */
+  display: flex;
+  /* align-content: center; */
+  justify-content: center;
 }
 
 .footer {
